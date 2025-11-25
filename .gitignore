@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment Variables (Secrets!)
+# זה הקריטי ביותר כדי למנוע את השגיאה שקיבלת קודם
+.env
+.env.*
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# Unit Test / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE settings (VS Code, PyCharm)
+.vscode/
+.idea/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+general_settings:
+  disable_prompt_management: true
+  custom_auth: custom_auth.user_api_key_auth
+  custom_auth_settings:
+    mode: "auto"
+litellm_settings:
+  callbacks: ["custom_callbacks.proxy_handler_instance"]
+  # success_callback: ["langsmith"]
+
